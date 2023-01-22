@@ -38,14 +38,14 @@
 
 
 
-def min_max(qwe):
-    mini = qwe[0]
-    maxi = qwe[0]
-    for i in qwe:
-        if i > maxi:
-            maxi = i
-        elif i < mini:
-            mini = i
-    return mini, maxi
-qwe = [5, 3, 7, 2, 9]
-print(min_max(qwe))
+# def min_max(qwe):
+#     mini = qwe[0]
+#     maxi = qwe[0]
+#     for i in qwe:
+#         if i > maxi:
+#             maxi = i
+#         elif i < mini:
+#             mini = i
+#     return mini, maxi
+# qwe = [5, 3, 7, 2, 9]
+# print(min_max(qwe))
