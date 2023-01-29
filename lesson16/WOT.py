@@ -24,21 +24,21 @@
 # f2c = lambda x: (x - 32)*5/9
 # print(c2f())
 
-from random import choice
-vvod = "https://www.google.com"
-slovar = {}
-chars = [list("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"),
-         list("абвгдеёжзийклмнопрстуфхцчшщъыьэюя"),
-         list("ABCDEFGHIJKLMNOPQRSTUVWXYZ"),
-         list("abcdefghijklmnopqrstuvwxyz"),
-         list("1234567890")
-        ]
-
-code = [choice(choice(chars)) for i in range(6)]
-tvss = "".join(code)
-print(tvss)
-if vvod in slovar:
-    print(f"вот ссылка: {slovar[vvod]}")
-else:
-    slovar[vvod] = tvss
-    print(tvvs)
+# from random import choice
+# vvod = "https://www.google.com"
+# slovar = {}
+# chars = [list("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"),
+#          list("абвгдеёжзийклмнопрстуфхцчшщъыьэюя"),
+#          list("ABCDEFGHIJKLMNOPQRSTUVWXYZ"),
+#          list("abcdefghijklmnopqrstuvwxyz"),
+#          list("1234567890")
+#         ]
+#
+# code = [choice(choice(chars)) for i in range(6)]
+# tvss = "".join(code)
+# print(tvss)
+# if vvod in slovar:
+#     print(f"вот ссылка: {slovar[vvod]}")
+# else:
+#     slovar[vvod] = tvss
+#     print(tvss)

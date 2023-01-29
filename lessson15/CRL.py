@@ -22,8 +22,6 @@
 #     print("не принтанул")
 
 
-#-----------------------------------------------
-
 # def find_longest(word1):
 #     count1 = []
 #     for i in word1:
@@ -33,9 +31,6 @@
 #
 # word = ["back", "rageee", "elitnie", "varvarii", "brawl"]
 # print(find_longest(word))
-
-#-----------------------------------------------
-
 
 
 # def min_max(qwe):
