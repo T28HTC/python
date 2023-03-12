@@ -64,8 +64,10 @@ import json
 # print(content)
 
 
-import requests
-resp = requests.get(url="http://api.open-notify.org/iss-now.json")
-data = resp.json()['iss_position']
-print(data)
-print(f"Широта: {data['latitude']}, Долгота: {data['longitude']}")
+# import requests
+# resp = requests.get(url="http://api.open-notify.org/iss-now.json")
+# data = resp.json()['iss_position']
+# print(data)
+# print(f"Широта: {data['latitude']}, Долгота: {data['longitude']}")
+
+
