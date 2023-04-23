@@ -26,7 +26,7 @@ lab.pack() # Размещение
 
 # lab["font"] = 30 # когда стоит 1 значение, воспринимается как размер
 # lab["font"] = " Arial 20 italic" # мультзначение строкой
-lab["font"] = ("Times New Roman", 30, 'bold', "italic", "overstrike", "underline") # шрифт, размер, наклон, зачёркнутый, подчёркнутый
+lab["font"] = ("Times New Roman", 30, 'bold', "italic", "overstrike", "underline")  #шрифт, размер, наклон, зачёркнутый, подчёркнутый
 
 
 btn = Button(root, text="Моя первая кнопка",
@@ -52,4 +52,4 @@ txt = Text(root, width=20, height=5)
 txt.pack()
 
 
-root.mainloop() # отобразить окно
+root.mainloop()  #отобразить окно
