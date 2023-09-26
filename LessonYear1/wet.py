@@ -4,7 +4,7 @@ oper = {
     "mul": lambda x: c * x,
     "minus": lambda x: c - x,
     "div": lambda x: c // x,
-}
+        }
 
 while True:
     comm = input().split()
@@ -18,3 +18,4 @@ while True:
             break
     else:
         oper[comm[0]](int(comm[1]))
+
